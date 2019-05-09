@@ -41,6 +41,20 @@ const vue_app = new Vue({
       },
       methods: {
             /* ADD FUNCTIONS/METHODS FOR STEP 7 HERE */
+            makeTextDate(dateArray) {
+                  makeTextDate(dateArray) {
+                        var year = dateArray[0];
+                        var month = dateArray[1];
+                        var day = dateArray[2];
+
+                        monthString = month.toString();
+                        var dateFormat = '';
+                        dateFormat = dateFormat + monthString + ' ' + day + ', ' + year;
+                        return dateFormat;
+
+
+
+                  }
       }
 })
 	
