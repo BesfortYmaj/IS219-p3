@@ -68,5 +68,48 @@
             "likes": 812,
             "dislikes": 101,
             "posterindex": 0
+      },
+      {
+            "title": "Pokemon Detective Pikachu",
+            "iscore": 7.5,
+            "rating": "PG",
+            "runtime": 162,
+            "released": [2019, 5, 10],
+            "country": "USA",
+            "posters": ["img/pikachu1.jpg", "img/pikachu2.jpg"],
+            "imdb": "https://www.imdb.com/title/tt5884052/",
+            "website": "https://www.detectivepikachumovie.com/",
+            "likes": 66,
+            "dislikes": 10,
+            "posterindex": 0
+      },
+      {
+            "title": "The Hustle",
+            "iscore": 5.3,
+            "rating": "PG-13",
+            "runtime": 169,
+            "released": [2019, 5, 10],
+            "country": "USA",
+            "posters": ["img/hustle1.jpg", "img/hustle2.jpg"],
+            "imdb": "https://www.imdb.com/title/tt1298644/",
+            "website": "https://www.thehustle.movie/",
+            "likes": 100,
+            "dislikes": 800,
+            "posterindex": 0
+      },
+      {
+            "title": "Poms",
+            "iscore": 4.9,
+            "rating": "PG-13",
+            "runtime": 171,
+            "released": [2019, 5, 10],
+            "country": "USA",
+            "posters": ["img/poms1.jpg", "img/poms2.jpg"],
+            "imdb": "https://www.imdb.com/title/tt5125894/",
+            "website": "https://www.rottentomatoes.com/m/poms",
+            "likes": 200,
+            "dislikes": 500,
+            "posterindex": 0
       }
+
 ]
