@@ -42,7 +42,8 @@ const vue_app = new Vue({
       methods: {
             /* ADD FUNCTIONS/METHODS FOR STEP 7 HERE */
             makeTextDate(dateArray) {
-                  makeTextDate(dateArray) {
+                  makeTextDate(dateArray)
+                  {
                         var year = dateArray[0];
                         var month = dateArray[1];
                         var day = dateArray[2];
@@ -77,8 +78,36 @@ const vue_app = new Vue({
                         return dateFormat;
 
 
+                  },
 
-                  }
-      }
-})
+                  like(index)
+                  {
+                        this.movies[index].likes += 1;
 
+                  },
+                  dislike(index)
+                  {
+                        this.movies[index].dislikes -= 1;
+
+                  },
+
+                  posterClick(index)
+                  {
+                        if ( this.movies[index].posterindex < (this.movies[index].posters.length)  ) {
+                              this.movies[index].posterindex += 1;
+                        } else {
+                              this.movies[index].posterindex = 0;
+                        }
+                  },
+                  timeText(minutes)
+                  {
+                        var hours = Math.floor(minutes / 60)
+                        var realMin = minutes % 60
+
+                        var hoursMins = '';
+                        hoursMins = hours + 'h' + ' ' + realMin + 'm';
+
+                        return hoursMins;
+
+            }
+      })
